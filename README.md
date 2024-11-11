@@ -12,3 +12,6 @@ this is an Upwork job which want to re-arrange the original text to be more comp
 
 ## Requirement vs. Result
 ![compare result](./resources/compare_to_requirement.png)
+
+## Demo
+[here](https://youtu.be/GmWba-MpzHM?si=wzngl7X-wfR-fxvu) 
