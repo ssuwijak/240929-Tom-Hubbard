@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath>r:\temp\vs2022\$(MSBuildProjectName)\bin\</BaseOutputPath>
+    <ApplicationIcon>align-text_128x128.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MyINISettings.cs" />
+    <Compile Remove="TextFileAppender.cs" />
+    <Compile Remove="TextFileReader.cs" />
+    <Compile Remove="TextReduceCombine.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="align-text_128x128.ico" />
+  </ItemGroup>
+
+</Project>
